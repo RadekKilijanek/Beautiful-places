@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Łęgi Rogalińskie",
+        "category": "Featured",
+        "city": "Rogalin",
+        "state": "Wielkopolska",
+        "id": 1001,
+        "coordinates": {
+            "longitude": 52.240674,
+            "latitude": 16.905215
+        },
+        "imageName": "Rogalin1"
+    },
+    {
+        "name": "ZNTK",
+        "category": "Abandoned",
+        "city": "Poznań",
+        "state": "Wielkopolska",
+        "id": 1002,
+        "coordinates": {
+            "longitude": 52.394789,
+            "latitude": 16.913488
+        },
+        "imageName": "ZNTK!"
+    },
+    
+]
