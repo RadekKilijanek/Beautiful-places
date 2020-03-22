@@ -10,7 +10,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        VStack(alignment: .leading) {
+            Text("Rogalin")
+                .font(.title)
+            HStack {
+                Text("Łęgi Rogalińskie")
+                    .font(.subheadline)
+                Spacer()
+                Text("Wielkopolska")
+                    .font(.subheadline)
+            }
+        }
+        .padding()
     }
 }
 
