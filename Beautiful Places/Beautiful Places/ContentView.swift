@@ -14,7 +14,7 @@ struct ContentView: View {
             Text("Rogalin")
                 .font(.title)
             HStack {
-                Text("Łęgi Rogalińskie11111")
+                Text("Łęgi Rogalińskie")
                     .font(.subheadline)
                 Spacer()
                 Text("Wielkopolska")
