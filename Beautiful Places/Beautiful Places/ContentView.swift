@@ -10,9 +10,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Rogalin")
-            .font(.title)
-            .foregroundColor(.red)
+        VStack(alignment: .leading) {
+            Text("Rogalin")
+                .font(.title)
+            Text("Łęgi Rogalińskie, Wielkopolska")
+                .font(.subheadline)
+        }
     }
 }
 
