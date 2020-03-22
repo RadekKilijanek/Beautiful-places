@@ -13,9 +13,15 @@ struct ContentView: View {
         VStack(alignment: .leading) {
             Text("Rogalin")
                 .font(.title)
-            Text("Łęgi Rogalińskie, Wielkopolska")
-                .font(.subheadline)
+            HStack {
+                Text("Łęgi Rogalińskie")
+                    .font(.subheadline)
+                Spacer()
+                Text("Wielkopolska")
+                    .font(.subheadline)
+            }
         }
+        .padding()
     }
 }
 
