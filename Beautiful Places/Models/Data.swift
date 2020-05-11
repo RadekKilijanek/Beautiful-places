@@ -2,7 +2,7 @@
 //  Data.swift
 //  Beautiful Places
 //
-//  Created by Radek Kilijanek on 22/03/2020.
+//  Created by Radek Kilijanek on 11/05/2020.
 //  Copyright © 2020 Radek Kilijanek. All rights reserved.
 //
 
@@ -66,3 +66,5 @@ final class ImageStore {
         return images.index(forKey: name)!
     }
 }
+
+
