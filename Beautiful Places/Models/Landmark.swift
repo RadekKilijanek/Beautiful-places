@@ -26,8 +26,8 @@ struct Landmark: Hashable, Codable {
     
     enum Category: String, CaseIterable, Codable, Hashable {
         case featured = "Featured"
-        case abandoned = "Abandoned"
-        case landscape = "Landscape"
+        case abandoned = "Opuszczone"
+        case landscape = "Krajobrazy"
     }
 }
 
