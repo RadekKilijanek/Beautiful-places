@@ -10,23 +10,35 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(alignment: .leading) {
-            Text("Rogalin")
-                .font(.title)
-            HStack {
-                Text("Łęgi Rogalińskie")
-                    .font(.subheadline)
-                Spacer()
-                Text("Wielkopolska")
-                    .font(.subheadline)
+        VStack {
+            MapView()
+                .edgesIgnoringSafeArea(.top)
+                .frame(height: 300)
+            
+            CircleImage()
+                .offset(y: -130)
+                .padding(.bottom, -130)
+            
+            VStack(alignment: .leading) {
+                Text("Rogalin")
+                    .font(.title)
+                HStack {
+                    Text("Łęgi Rogalińskie")
+                        .font(.subheadline)
+                    Spacer()
+                    Text("Wielkopolska")
+                        .font(.subheadline)
+                }
             }
+            .padding()
+            
+            Spacer()
         }
-        .padding()
     }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+    
+    struct ContentView_Previews: PreviewProvider {
+        static var previews: some View {
+            ContentView()
+        }
     }
 }
