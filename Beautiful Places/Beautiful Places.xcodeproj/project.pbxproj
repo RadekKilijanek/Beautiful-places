@@ -18,6 +18,7 @@
 		0A3D618D246D079700340B12 /* BeautifulPlaceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3D618C246D079700340B12 /* BeautifulPlaceList.swift */; };
 		0A56B9CA246D45820053DDF1 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A56B9C9246D45820053DDF1 /* Home.swift */; };
 		0A56B9CC246D49EB0053DDF1 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A56B9CB246D49EB0053DDF1 /* CategoryRow.swift */; };
+		0A6C08F7246D5E9F0021E140 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6C08F6246D5E9F0021E140 /* UserData.swift */; };
 		0A83AF1A246C1402003E71B4 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A83AF19246C1402003E71B4 /* CircleImage.swift */; };
 		0AD31F14242756A900ECDCE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD31F13242756A900ECDCE1 /* AppDelegate.swift */; };
 		0AD31F16242756A900ECDCE1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD31F15242756A900ECDCE1 /* SceneDelegate.swift */; };
@@ -59,6 +60,7 @@
 		0A3D618C246D079700340B12 /* BeautifulPlaceList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautifulPlaceList.swift; sourceTree = "<group>"; };
 		0A56B9C9246D45820053DDF1 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		0A56B9CB246D49EB0053DDF1 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		0A6C08F6246D5E9F0021E140 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		0A83AF19246C1402003E71B4 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		0AD31F10242756A900ECDCE1 /* Beautiful Places.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beautiful Places.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AD31F13242756A900ECDCE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				0A0B4BD4246C7B910037A714 /* BeautifulPlace.swift */,
+				0A6C08F6246D5E9F0021E140 /* UserData.swift */,
 				0A2AA133246D006000D8F181 /* Data.swift */,
 			);
 			name = Model;
@@ -342,6 +345,7 @@
 				0A56B9CA246D45820053DDF1 /* Home.swift in Sources */,
 				0A2AA134246D006000D8F181 /* Data.swift in Sources */,
 				0AD31F14242756A900ECDCE1 /* AppDelegate.swift in Sources */,
+				0A6C08F7246D5E9F0021E140 /* UserData.swift in Sources */,
 				0A83AF1A246C1402003E71B4 /* CircleImage.swift in Sources */,
 				0A0B4BD2246C77110037A714 /* MapView.swift in Sources */,
 				0AD31F16242756A900ECDCE1 /* SceneDelegate.swift in Sources */,

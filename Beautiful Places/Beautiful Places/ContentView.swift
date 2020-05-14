@@ -9,7 +9,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var userData: UserData
     var beatifulPlace: BeautifulPlace
+    
+    var beautifulPlaceIndex: Int {
+        userData.beautifulPlace.firstIndex(where: { $0.id == beatifulPlace.id })!
+    }
     
     var body: some View {
         VStack {
@@ -42,6 +47,7 @@ struct ContentView: View {
     struct ContentView_Previews: PreviewProvider {
         static var previews: some View {
             ContentView(beatifulPlace: beautifulPlaceData[0])
+                .environmentObject( UserData() )
         }
     }
 }

@@ -9,26 +9,31 @@
 import SwiftUI
 
 struct BeautifulPlaceList: View {
-    @State var showFavoritesOnly = false
+    @EnvironmentObject var userData: UserData
     
     var body: some View {
         NavigationView {
-            List(beautifulPlaceData) { beautifulPlace in
-               NavigationLink( destination: ContentView(beatifulPlace: beautifulPlace) ) {
-                    BeautifulPlaceRow(beautifulPlace: beautifulPlace)
+            List{
+                Toggle(isOn: $userData.showFavoritesOnly) {
+                    Text("Tylko Ulubione")
                 }
+                
+                ForEach(userData.beautifulPlace) { beautifulPlace in
+                    if !self.userData.showFavoritesOnly || beautifulPlace.isFavorite {
+                        NavigationLink( destination: ContentView(beatifulPlace: beautifulPlace) ) {
+                            BeautifulPlaceRow(beautifulPlace: beautifulPlace)
+                        }
+                    }
+                }
+                .navigationBarTitle( Text("Beautiful Place") )
             }
-            .navigationBarTitle( Text("Beautiful Place") )
         }
     }
 }
 
 struct BeautifulPlaceList_Previews: PreviewProvider {
     static var previews: some View {
-        ForEach(["iPhone SE", "iPhone XS Max"], id: \.self) { deviceName in
-            BeautifulPlaceList()
-                .previewDevice( PreviewDevice(rawValue: deviceName) )
-                .previewDisplayName(deviceName)
-        }
+        BeautifulPlaceList()
+        .environmentObject( UserData() )
     }
 }
