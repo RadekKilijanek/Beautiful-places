@@ -25,6 +25,7 @@
 		0AD31F20242756AA00ECDCE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AD31F1E242756AA00ECDCE1 /* LaunchScreen.storyboard */; };
 		0AD31F2B242756AA00ECDCE1 /* Beautiful_PlacesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD31F2A242756AA00ECDCE1 /* Beautiful_PlacesTests.swift */; };
 		0AD31F36242756AA00ECDCE1 /* Beautiful_PlacesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD31F35242756AA00ECDCE1 /* Beautiful_PlacesUITests.swift */; };
+		0AEEEB30246D130D00A01C01 /* Rogalin1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AEEEB2F246D130C00A01C01 /* Rogalin1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		0AD31F31242756AA00ECDCE1 /* Beautiful PlacesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Beautiful PlacesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AD31F35242756AA00ECDCE1 /* Beautiful_PlacesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beautiful_PlacesUITests.swift; sourceTree = "<group>"; };
 		0AD31F37242756AA00ECDCE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AEEEB2F246D130C00A01C01 /* Rogalin1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rogalin1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 		0A2AA132246CFCED00D8F181 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0AEEEB2F246D130C00A01C01 /* Rogalin1.jpg */,
 				0A3D6180246D025000340B12 /* BeautifulPlaceData.json */,
 				0A3D6181246D025000340B12 /* Golina1.jpg */,
 				0A3D6183246D025000340B12 /* Warszawa1.jpg */,
@@ -295,6 +298,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AEEEB30246D130D00A01C01 /* Rogalin1.jpg in Resources */,
 				0AD31F20242756AA00ECDCE1 /* LaunchScreen.storyboard in Resources */,
 				0A3D6189246D025000340B12 /* ZNTK1.jpg in Resources */,
 				0A3D6185246D025000340B12 /* BeautifulPlaceData.json in Resources */,

@@ -23,6 +23,10 @@ struct BeautifulPlaceList: View {
 
 struct BeautifulPlaceList_Previews: PreviewProvider {
     static var previews: some View {
-        BeautifulPlaceList()
+        ForEach(["iPhone SE", "iPhone XS Max"], id: \.self) { deviceName in
+            BeautifulPlaceList()
+            .previewDevice( PreviewDevice(rawValue: deviceName) )
+            .previewDisplayName(deviceName)
+        }
     }
 }
