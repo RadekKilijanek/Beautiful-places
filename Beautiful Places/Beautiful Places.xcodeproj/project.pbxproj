@@ -10,6 +10,12 @@
 		0A0B4BD2246C77110037A714 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0B4BD1246C77110037A714 /* MapView.swift */; };
 		0A0B4BD5246C7B910037A714 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0B4BD4246C7B910037A714 /* Landmark.swift */; };
 		0A2AA134246D006000D8F181 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2AA133246D006000D8F181 /* Data.swift */; };
+		0A3D6185246D025000340B12 /* BeautifulPlaceData.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A3D6180246D025000340B12 /* BeautifulPlaceData.json */; };
+		0A3D6186246D025000340B12 /* Golina1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A3D6181246D025000340B12 /* Golina1.jpg */; };
+		0A3D6187246D025000340B12 /* Rogalin1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A3D6182246D025000340B12 /* Rogalin1.jpg */; };
+		0A3D6188246D025000340B12 /* Warszawa1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A3D6183246D025000340B12 /* Warszawa1.jpg */; };
+		0A3D6189246D025000340B12 /* ZNTK1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A3D6184246D025000340B12 /* ZNTK1.jpg */; };
+		0A3D618B246D04E800340B12 /* BeautifulPlaceRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3D618A246D04E800340B12 /* BeautifulPlaceRow.swift */; };
 		0A83AF18246C1306003E71B4 /* Resources.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A83AF17246C1306003E71B4 /* Resources.xcassets */; };
 		0A83AF1A246C1402003E71B4 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A83AF19246C1402003E71B4 /* CircleImage.swift */; };
 		0AD31F14242756A900ECDCE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD31F13242756A900ECDCE1 /* AppDelegate.swift */; };
@@ -43,6 +49,12 @@
 		0A0B4BD1246C77110037A714 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		0A0B4BD4246C7B910037A714 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		0A2AA133246D006000D8F181 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		0A3D6180246D025000340B12 /* BeautifulPlaceData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = BeautifulPlaceData.json; path = "Beautiful Places/Resources/BeautifulPlaceData.json"; sourceTree = "<group>"; };
+		0A3D6181246D025000340B12 /* Golina1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Golina1.jpg; path = "Beautiful Places/Resources/Golina1.jpg"; sourceTree = "<group>"; };
+		0A3D6182246D025000340B12 /* Rogalin1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Rogalin1.jpg; path = "Beautiful Places/Resources/Rogalin1.jpg"; sourceTree = "<group>"; };
+		0A3D6183246D025000340B12 /* Warszawa1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Warszawa1.jpg; path = "Beautiful Places/Resources/Warszawa1.jpg"; sourceTree = "<group>"; };
+		0A3D6184246D025000340B12 /* ZNTK1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ZNTK1.jpg; path = "Beautiful Places/Resources/ZNTK1.jpg"; sourceTree = "<group>"; };
+		0A3D618A246D04E800340B12 /* BeautifulPlaceRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautifulPlaceRow.swift; sourceTree = "<group>"; };
 		0A83AF17246C1306003E71B4 /* Resources.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Resources.xcassets; path = "Beautiful Places/Resources.xcassets"; sourceTree = "<group>"; };
 		0A83AF19246C1402003E71B4 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		0AD31F10242756A900ECDCE1 /* Beautiful Places.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beautiful Places.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,8 +119,14 @@
 		0A2AA132246CFCED00D8F181 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0A3D6180246D025000340B12 /* BeautifulPlaceData.json */,
+				0A3D6181246D025000340B12 /* Golina1.jpg */,
+				0A3D6182246D025000340B12 /* Rogalin1.jpg */,
+				0A3D6183246D025000340B12 /* Warszawa1.jpg */,
+				0A3D6184246D025000340B12 /* ZNTK1.jpg */,
 			);
 			name = Resources;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		0AD31F07242756A900ECDCE1 = {
@@ -118,7 +136,6 @@
 				0AD31F12242756A900ECDCE1 /* Beautiful Places */,
 				0AD31F29242756AA00ECDCE1 /* Beautiful PlacesTests */,
 				0AD31F34242756AA00ECDCE1 /* Beautiful PlacesUITests */,
-				0A2AA132246CFCED00D8F181 /* Resources */,
 				0AD31F11242756A900ECDCE1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -139,11 +156,13 @@
 				0AD31F13242756A900ECDCE1 /* AppDelegate.swift */,
 				0AD31F15242756A900ECDCE1 /* SceneDelegate.swift */,
 				0AD31F17242756A900ECDCE1 /* ContentView.swift */,
+				0A3D618A246D04E800340B12 /* BeautifulPlaceRow.swift */,
 				0A0B4BD3246C7B5A0037A714 /* Model */,
 				0A0B4BD0246C76DE0037A714 /* View */,
 				0AD31F19242756AA00ECDCE1 /* Assets.xcassets */,
 				0AD31F1E242756AA00ECDCE1 /* LaunchScreen.storyboard */,
 				0AD31F21242756AA00ECDCE1 /* Info.plist */,
+				0A2AA132246CFCED00D8F181 /* Resources */,
 				0AD31F1B242756AA00ECDCE1 /* Preview Content */,
 			);
 			path = "Beautiful Places";
@@ -280,9 +299,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AD31F20242756AA00ECDCE1 /* LaunchScreen.storyboard in Resources */,
+				0A3D6187246D025000340B12 /* Rogalin1.jpg in Resources */,
 				0A83AF18246C1306003E71B4 /* Resources.xcassets in Resources */,
+				0A3D6189246D025000340B12 /* ZNTK1.jpg in Resources */,
+				0A3D6185246D025000340B12 /* BeautifulPlaceData.json in Resources */,
 				0AD31F1D242756AA00ECDCE1 /* Preview Assets.xcassets in Resources */,
+				0A3D6188246D025000340B12 /* Warszawa1.jpg in Resources */,
 				0AD31F1A242756AA00ECDCE1 /* Assets.xcassets in Resources */,
+				0A3D6186246D025000340B12 /* Golina1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +331,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A3D618B246D04E800340B12 /* BeautifulPlaceRow.swift in Sources */,
 				0A2AA134246D006000D8F181 /* Data.swift in Sources */,
 				0AD31F14242756A900ECDCE1 /* AppDelegate.swift in Sources */,
 				0A83AF1A246C1402003E71B4 /* CircleImage.swift in Sources */,

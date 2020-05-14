@@ -23,19 +23,18 @@ struct Landmark: Hashable, Codable {
             latitude: coordinates.latitude,
             longitude: coordinates.longitude
         )
-        
-        enum Category: String, CaseIterable, Codable, Hashable {
-            case featured = "Wyróżnione"
-            case landscape = "Krajobraz"
-            case abandoned = "Opuszczone"
-            case city = "Miasto"
-        }
     }
-    
-    extension Landmark {
-        var image: Image {
-            ImageStore.shared.image(name: imageName)
-        }
+    enum Category: String, CaseIterable, Codable, Hashable {
+        case featured = "Wyróżnione"
+        case landscape = "Krajobraz"
+        case abandoned = "Opuszczone"
+        case city = "Miasto"
+    }
+}
+
+extension Landmark {
+    var image: Image {
+        ImageStore.shared.image(name: imageName)
     }
 }
 
