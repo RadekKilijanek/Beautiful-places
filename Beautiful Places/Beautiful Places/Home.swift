@@ -16,15 +16,32 @@ struct CategoryHome: View {
         )
     }
     
+    var featured: [BeautifulPlace] {
+        beautifulPlaceData.filter { $0.isFeatured }
+    }
+    
     var body: some View {
         NavigationView {
             List {
+                FeaturedBeautifulPlace(beautifulPlace: featured)
+                    .scaledToFill()
+                    .frame(height: 200)
+                    .clipped()
+                    .listRowInsets( EdgeInsets() )
+                
                 ForEach(categories.keys.sorted(), id: \.self) { key in
                     CategoryRow( categoryName: key, items: self.categories[key]! )
                 }
             }
             .navigationBarTitle( Text("Wyróżnione") )
         }
+    }
+}
+
+struct FeaturedBeautifulPlace: View {
+    var beautifulPlace: [BeautifulPlace]
+    var body: some View {
+        beautifulPlace[0].image.resizable()
     }
 }
 
