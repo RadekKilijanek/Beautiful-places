@@ -16,6 +16,7 @@
 		0A3D6189246D025000340B12 /* ZNTK1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A3D6184246D025000340B12 /* ZNTK1.jpg */; };
 		0A3D618B246D04E800340B12 /* BeautifulPlaceRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3D618A246D04E800340B12 /* BeautifulPlaceRow.swift */; };
 		0A3D618D246D079700340B12 /* BeautifulPlaceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3D618C246D079700340B12 /* BeautifulPlaceList.swift */; };
+		0A56B9CA246D45820053DDF1 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A56B9C9246D45820053DDF1 /* Home.swift */; };
 		0A83AF1A246C1402003E71B4 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A83AF19246C1402003E71B4 /* CircleImage.swift */; };
 		0AD31F14242756A900ECDCE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD31F13242756A900ECDCE1 /* AppDelegate.swift */; };
 		0AD31F16242756A900ECDCE1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD31F15242756A900ECDCE1 /* SceneDelegate.swift */; };
@@ -55,6 +56,7 @@
 		0A3D6184246D025000340B12 /* ZNTK1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ZNTK1.jpg; path = "Beautiful Places/Resources/ZNTK1.jpg"; sourceTree = "<group>"; };
 		0A3D618A246D04E800340B12 /* BeautifulPlaceRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautifulPlaceRow.swift; sourceTree = "<group>"; };
 		0A3D618C246D079700340B12 /* BeautifulPlaceList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautifulPlaceList.swift; sourceTree = "<group>"; };
+		0A56B9C9246D45820053DDF1 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		0A83AF19246C1402003E71B4 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		0AD31F10242756A900ECDCE1 /* Beautiful Places.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beautiful Places.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AD31F13242756A900ECDCE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				0A3D618C246D079700340B12 /* BeautifulPlaceList.swift */,
+				0A56B9C9246D45820053DDF1 /* Home.swift */,
 				0A3D618A246D04E800340B12 /* BeautifulPlaceRow.swift */,
 				0A83AF19246C1402003E71B4 /* CircleImage.swift */,
 				0A0B4BD1246C77110037A714 /* MapView.swift */,
@@ -332,6 +335,7 @@
 			files = (
 				0A3D618D246D079700340B12 /* BeautifulPlaceList.swift in Sources */,
 				0A3D618B246D04E800340B12 /* BeautifulPlaceRow.swift in Sources */,
+				0A56B9CA246D45820053DDF1 /* Home.swift in Sources */,
 				0A2AA134246D006000D8F181 /* Data.swift in Sources */,
 				0AD31F14242756A900ECDCE1 /* AppDelegate.swift in Sources */,
 				0A83AF1A246C1402003E71B4 /* CircleImage.swift in Sources */,
