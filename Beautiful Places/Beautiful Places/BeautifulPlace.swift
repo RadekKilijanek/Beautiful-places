@@ -17,6 +17,7 @@ struct BeautifulPlace: Hashable, Codable, Identifiable {
     var state: String
     var park: String
     var category: Category
+   // var isFavorite: Bool - dodać później
     
     var locationCoordinate: CLLocationCoordinate2D {
         CLLocationCoordinate2D(

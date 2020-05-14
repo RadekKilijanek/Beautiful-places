@@ -18,10 +18,6 @@ struct BeautifulPlaceRow: View {
                 .frame(width: 50, height: 50)
             Text(beautifulPlace.name)
             Spacer()
-            
-            if beautifulPlace.isFavorite {
-                Image(systemName: "star fill")
-            }
         }
     }
 }

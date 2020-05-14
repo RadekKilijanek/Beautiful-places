@@ -9,10 +9,12 @@
 import SwiftUI
 
 struct BeautifulPlaceList: View {
+    @State var showFavoritesOnly = false
+    
     var body: some View {
         NavigationView {
             List(beautifulPlaceData) { beautifulPlace in
-                NavigationLink( destination: ContentView(beatifulPlace: beautifulPlace) ) {
+               NavigationLink( destination: ContentView(beatifulPlace: beautifulPlace) ) {
                     BeautifulPlaceRow(beautifulPlace: beautifulPlace)
                 }
             }
@@ -25,8 +27,8 @@ struct BeautifulPlaceList_Previews: PreviewProvider {
     static var previews: some View {
         ForEach(["iPhone SE", "iPhone XS Max"], id: \.self) { deviceName in
             BeautifulPlaceList()
-            .previewDevice( PreviewDevice(rawValue: deviceName) )
-            .previewDisplayName(deviceName)
+                .previewDevice( PreviewDevice(rawValue: deviceName) )
+                .previewDisplayName(deviceName)
         }
     }
 }
