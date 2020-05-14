@@ -26,7 +26,7 @@ struct BeautifulPlace: Hashable, Codable, Identifiable {
         )
     }
     enum Category: String, CaseIterable, Codable, Hashable {
-        //case featured = "Wyróżnione"
+        case featured = "Wyróżnione"
         case landscape = "Krajobraz"
         case abandoned = "Opuszczone"
         case city = "Miasto"
@@ -44,3 +44,9 @@ struct Coordinates: Hashable, Codable {
     var longitude: Double
 }
 
+
+struct BeautifulPlace_Previews: PreviewProvider {
+    static var previews: some View {
+        /*@START_MENU_TOKEN@*/Text("Hello, World!")/*@END_MENU_TOKEN@*/
+    }
+}
