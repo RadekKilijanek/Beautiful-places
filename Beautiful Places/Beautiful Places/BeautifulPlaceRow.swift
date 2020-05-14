@@ -9,15 +9,24 @@
 import SwiftUI
 
 struct BeautifulPlaceRow: View {
-    var landmark: Landmark
+    var beautifulPlace: BeautifulPlace
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            beautifulPlace.image
+                .resizable()
+                .frame(width: 50, height: 50)
+            Text(beautifulPlace.name)
+            Spacer()
+        }
     }
 }
 
 struct BeautifulPlaceRow_Previews: PreviewProvider {
     static var previews: some View {
-        BeautifulPlaceRow(landmark: LandmarkData)
+        List(BeautifulPlaceData) { beautifulPlace in
+            BeautifulPlaceRow(beautifulPlace: beautifulPlace)
+        }
+        .previewLayout(.fixed(width: 300, height: 70))
     }
 }
