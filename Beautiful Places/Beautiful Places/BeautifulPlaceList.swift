@@ -11,9 +11,10 @@ import SwiftUI
 struct BeautifulPlaceList: View {
     var body: some View {
         NavigationView {
-            List(BeautifulPlaceData) { beautifulPlace in
-                NavigationLink(destination: ContentView())
-                BeautifulPlaceRow(beautifulPlace: beautifulPlace)
+            List(beautifulPlaceData) { beautifulPlace in
+                NavigationLink( destination: ContentView(beatifulPlace: beautifulPlace) ) {
+                    BeautifulPlaceRow(beautifulPlace: beautifulPlace)
+                }
             }
             .navigationBarTitle( Text("Beautiful Place") )
         }

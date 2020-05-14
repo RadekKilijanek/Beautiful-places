@@ -99,6 +99,8 @@
 		0A0B4BD0246C76DE0037A714 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0A3D618C246D079700340B12 /* BeautifulPlaceList.swift */,
+				0A3D618A246D04E800340B12 /* BeautifulPlaceRow.swift */,
 				0A83AF19246C1402003E71B4 /* CircleImage.swift */,
 				0A0B4BD1246C77110037A714 /* MapView.swift */,
 			);
@@ -152,8 +154,6 @@
 				0AD31F13242756A900ECDCE1 /* AppDelegate.swift */,
 				0AD31F15242756A900ECDCE1 /* SceneDelegate.swift */,
 				0AD31F17242756A900ECDCE1 /* ContentView.swift */,
-				0A3D618A246D04E800340B12 /* BeautifulPlaceRow.swift */,
-				0A3D618C246D079700340B12 /* BeautifulPlaceList.swift */,
 				0A0B4BD3246C7B5A0037A714 /* Model */,
 				0A0B4BD0246C76DE0037A714 /* View */,
 				0AD31F19242756AA00ECDCE1 /* Assets.xcassets */,

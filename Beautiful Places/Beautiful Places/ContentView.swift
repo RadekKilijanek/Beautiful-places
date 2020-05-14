@@ -9,24 +9,26 @@
 import SwiftUI
 
 struct ContentView: View {
+    var beatifulPlace: BeautifulPlace
+    
     var body: some View {
         VStack {
-            MapView()
+            MapView(coordinate: beatifulPlace.locationCoordinate)
                 .edgesIgnoringSafeArea(.top)
                 .frame(height: 300)
             
-            CircleImage()
+            CircleImage(image: beatifulPlace.image)
                 .offset(y: -130)
                 .padding(.bottom, -130)
             
             VStack(alignment: .leading) {
-                Text("Rogalin")
+                Text(beatifulPlace.name)
                     .font(.title)
                 HStack {
-                    Text("Łęgi Rogalińskie")
+                    Text(beatifulPlace.park)
                         .font(.subheadline)
                     Spacer()
-                    Text("Wielkopolska")
+                    Text(beatifulPlace.name)
                         .font(.subheadline)
                 }
             }
@@ -34,11 +36,12 @@ struct ContentView: View {
             
             Spacer()
         }
+        .navigationBarTitle( Text(beatifulPlace.name), displayMode: .inline )
     }
     
     struct ContentView_Previews: PreviewProvider {
         static var previews: some View {
-            ContentView()
+            ContentView(beatifulPlace: beautifulPlaceData[0])
         }
     }
 }

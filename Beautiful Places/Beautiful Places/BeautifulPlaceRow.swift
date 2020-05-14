@@ -24,7 +24,7 @@ struct BeautifulPlaceRow: View {
 
 struct BeautifulPlaceRow_Previews: PreviewProvider {
     static var previews: some View {
-        List(BeautifulPlaceData) { beautifulPlace in
+        List(beautifulPlaceData) { beautifulPlace in
             BeautifulPlaceRow(beautifulPlace: beautifulPlace)
         }
         .previewLayout(.fixed(width: 300, height: 70))
