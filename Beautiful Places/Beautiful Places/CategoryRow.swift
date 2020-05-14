@@ -22,7 +22,13 @@ struct CategoryRow: View {
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(alignment: .top, spacing: 0) {
                     ForEach(self.items) { BeautifulPlace in
-                        CategoryItem(beautifulPlace: BeautifulPlace)
+                        NavigationLink(
+                            destination: ContentView(
+                                beatifulPlace: BeautifulPlace
+                            )
+                            ) {
+                            CategoryItem(beautifulPlace: BeautifulPlace)
+                        }
                     }
                 }
             }
@@ -36,10 +42,12 @@ struct CategoryItem: View {
     var body: some View {
         VStack(alignment: .leading) {
             beautifulPlace.image
+                .renderingMode(.original)
                 .resizable()
                 .frame(width: 155, height: 155)
                 .cornerRadius(5)
             Text(beautifulPlace.name)
+                .foregroundColor(.primary)
                 .font(.caption)
         }
         .padding(.leading, 15)

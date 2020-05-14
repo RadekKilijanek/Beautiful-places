@@ -27,8 +27,23 @@ struct ContentView: View {
                 .padding(.bottom, -130)
             
             VStack(alignment: .leading) {
-                Text(beatifulPlace.name)
-                    .font(.title)
+                HStack{
+                    Text(beatifulPlace.name)
+                        .font(.title)
+                    
+                    Button(action: {
+                        self.userData.beautifulPlace[self.beautifulPlaceIndex].isFavorite.toggle()
+                    }) {
+                        if self.userData.beautifulPlace[self.beautifulPlaceIndex].isFavorite {
+                            Image(systemName: "star.fill")
+                                .foregroundColor(Color.yellow)
+                        } else {
+                            Image(systemName: "star")
+                                .foregroundColor(Color.gray)
+                        }
+                    }
+                }
+                
                 HStack {
                     Text(beatifulPlace.park)
                         .font(.subheadline)
