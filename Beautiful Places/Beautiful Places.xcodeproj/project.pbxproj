@@ -101,6 +101,13 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
+		0A2AA132246CFCED00D8F181 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		0AD31F07242756A900ECDCE1 = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +115,7 @@
 				0AD31F12242756A900ECDCE1 /* Beautiful Places */,
 				0AD31F29242756AA00ECDCE1 /* Beautiful PlacesTests */,
 				0AD31F34242756AA00ECDCE1 /* Beautiful PlacesUITests */,
+				0A2AA132246CFCED00D8F181 /* Resources */,
 				0AD31F11242756A900ECDCE1 /* Products */,
 			);
 			sourceTree = "<group>";
