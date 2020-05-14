@@ -1,0 +1,54 @@
+[
+    {
+        "name": "Łęgi Rogalińskie",
+        "category": "Wyróżnione",
+        "city": "Rogalin",
+        "state": "Wielkopolska",
+        "id": 1001,
+        "park": "Wielkopolski Park Krajobrazowy",
+        "coordinates": {
+            "longitude": 16.905451,
+            "latitude": 52.240897
+        },
+        "imageName": "Rogalin1"
+    },
+    {
+        "name": "ZNTK",
+        "category": "Opuszczone",
+        "city": "Poznań",
+        "state": "Wielkopolska",
+        "id": 1002,
+        "park": "Poznań",
+        "coordinates": {
+            "longitude": 16.913820,
+            "latitude": 52.394529
+        },
+        "imageName": "ZNTK1"
+    },
+    {
+        "name": "Łęgi koło Goliny",
+        "category": "Krajobraz",
+        "city": "Golina",
+        "state": "Wielkopolska",
+        "id": 1003,
+        "park": "Łęgi nadwarciańskie",
+        "coordinates": {
+            "longitude": 18.058580,
+            "latitude": 52.208544
+        },
+        "imageName": "Golina1"
+    },
+    {
+        "name": "Warszawa",
+        "category": "Miasto",
+        "city": "Warszawa",
+        "state": "Mazowieckie",
+        "id": 1004,
+        "park": "Warszawa",
+        "coordinates": {
+            "longitude": 21.011283,
+            "latitude": 52.229798
+        },
+        "imageName": "Warszawa1"
+    }
+]
