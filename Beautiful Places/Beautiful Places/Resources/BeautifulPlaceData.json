@@ -5,6 +5,8 @@
         "city": "Rogalin",
         "state": "Wielkopolska",
         "id": 1001,
+        "isFeatured": true,
+        "isFavorite": true,
         "park": "Wielkopolski Park Krajobrazowy",
         "coordinates": {
             "longitude": 16.905451,
@@ -18,6 +20,8 @@
         "city": "Poznań",
         "state": "Wielkopolska",
         "id": 1002,
+        "isFeatured": false,
+        "isFavorite": false,
         "park": "Poznań",
         "coordinates": {
             "longitude": 16.913820,
@@ -31,6 +35,8 @@
         "city": "Golina",
         "state": "Wielkopolska",
         "id": 1003,
+        "isFeatured": false,
+        "isFavorite": false,
         "park": "Łęgi nadwarciańskie",
         "coordinates": {
             "longitude": 18.058580,
@@ -44,6 +50,8 @@
         "city": "Warszawa",
         "state": "Mazowieckie",
         "id": 1004,
+        "isFeatured": false,
+        "isFavorite": false,
         "park": "Warszawa",
         "coordinates": {
             "longitude": 21.011283,
