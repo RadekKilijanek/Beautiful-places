@@ -28,7 +28,6 @@
 		0AD31F20242756AA00ECDCE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AD31F1E242756AA00ECDCE1 /* LaunchScreen.storyboard */; };
 		0AD31F2B242756AA00ECDCE1 /* Beautiful_PlacesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD31F2A242756AA00ECDCE1 /* Beautiful_PlacesTests.swift */; };
 		0AD31F36242756AA00ECDCE1 /* Beautiful_PlacesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD31F35242756AA00ECDCE1 /* Beautiful_PlacesUITests.swift */; };
-		0AE9702C246D681800C01023 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE9702B246D681800C01023 /* ProfileHost.swift */; };
 		0AEEEB30246D130D00A01C01 /* Rogalin1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AEEEB2F246D130C00A01C01 /* Rogalin1.jpg */; };
 /* End PBXBuildFile section */
 
@@ -77,7 +76,6 @@
 		0AD31F31242756AA00ECDCE1 /* Beautiful PlacesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Beautiful PlacesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AD31F35242756AA00ECDCE1 /* Beautiful_PlacesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beautiful_PlacesUITests.swift; sourceTree = "<group>"; };
 		0AD31F37242756AA00ECDCE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0AE9702B246D681800C01023 /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
 		0AEEEB2F246D130C00A01C01 /* Rogalin1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rogalin1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -123,7 +121,6 @@
 			isa = PBXGroup;
 			children = (
 				0A0B4BD4246C7B910037A714 /* BeautifulPlace.swift */,
-				0AE9702B246D681800C01023 /* ProfileHost.swift */,
 				0A6C08F6246D5E9F0021E140 /* UserData.swift */,
 				0A2AA133246D006000D8F181 /* Data.swift */,
 			);
@@ -347,7 +344,6 @@
 				0A3D618B246D04E800340B12 /* BeautifulPlaceRow.swift in Sources */,
 				0A56B9CA246D45820053DDF1 /* Home.swift in Sources */,
 				0A2AA134246D006000D8F181 /* Data.swift in Sources */,
-				0AE9702C246D681800C01023 /* ProfileHost.swift in Sources */,
 				0AD31F14242756A900ECDCE1 /* AppDelegate.swift in Sources */,
 				0A6C08F7246D5E9F0021E140 /* UserData.swift in Sources */,
 				0A83AF1A246C1402003E71B4 /* CircleImage.swift in Sources */,

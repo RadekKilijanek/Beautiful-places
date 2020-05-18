@@ -19,7 +19,7 @@ struct CategoryHome: View {
     var featured: [BeautifulPlace] {
         beautifulPlaceData.filter { $0.isFeatured }
     }
-    
+   /*
     @State var showingProfile = false
     
     var profileButton: some View {
@@ -30,7 +30,7 @@ struct CategoryHome: View {
             .padding()
         }
     }
-    
+    */
     var body: some View {
         NavigationView {
             List {
@@ -50,12 +50,12 @@ struct CategoryHome: View {
                 }
             }
             .navigationBarTitle( Text("Wyróżnione") )
-            .sheet(isPresented: $showingProfile) {
-                Text("Profil Użytkownika")
+           // .sheet(isPresented: $showingProfile) {
+                //Text("Profil Użytkownika")
             }
         }
     }
-}
+
 
 struct FeaturedBeautifulPlace: View {
     var beautifulPlace: [BeautifulPlace]

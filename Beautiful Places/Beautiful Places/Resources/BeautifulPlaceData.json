@@ -58,5 +58,20 @@
             "latitude": 52.229798
         },
         "imageName": "Warszawa1"
-    }
+    },
+    {
+           "name": "Łęgi Rogalińskie",
+           "category": "Krajobraz",
+           "city": "Rogalin",
+           "state": "Wielkopolskie",
+           "id": 1005,
+           "isFeatured": false,
+           "isFavorite": false,
+           "park": "Warszawa",
+           "coordinates": {
+               "longitude": 16.905451,
+               "latitude": 52.394529
+           },
+           "imageName": "Rogalin2"
+       },
 ]
