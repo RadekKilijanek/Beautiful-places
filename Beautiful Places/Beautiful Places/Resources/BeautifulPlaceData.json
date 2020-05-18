@@ -194,4 +194,34 @@
         },
         "imageName": "Rusalka1"
     },
+    {
+        "name": "Pałac w Bełczu Wielkim",
+        "category": "Opuszczone",
+        "city": "Bełcz Wielki",
+        "state": "Dolnośląskie",
+        "id": 1014,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Bełcz Wielki",
+        "coordinates": {
+            "longitude": 16.357145,
+            "latitude": 51.616269
+        },
+        "imageName": "Belcz1"
+    },
+    {
+        "name": "Pałac w Bełczu Wielkim",
+        "category": "Opuszczone",
+        "city": "Bełcz Wielki",
+        "state": "Dolnośląskie",
+        "id": 1015,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Bełcz Wielki",
+        "coordinates": {
+            "longitude": 16.357145,
+            "latitude": 51.616269
+        },
+        "imageName": "Belcz2"
+    },
 ]
