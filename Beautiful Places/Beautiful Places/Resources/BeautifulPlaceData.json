@@ -239,4 +239,34 @@
         },
         "imageName": "Gory1"
     },
+    {
+        "name": "Wodospad Kamieńczyk",
+        "category": "Krajobraz",
+        "city": "Szklarska Poręba",
+        "state": "Dolnośląskie",
+        "id": 1017,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Karkonoski Park Narodowy",
+        "coordinates": {
+            "longitude": 15.496484,
+            "latitude": 50.813672
+        },
+        "imageName": "Kamienczyk1"
+    },
+    {
+        "name": "Wodospad Kamieńczyk",
+        "category": "Krajobraz",
+        "city": "Szklarska Poręba",
+        "state": "Dolnośląskie",
+        "id": 1017,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Karkonoski Park Narodowy",
+        "coordinates": {
+            "longitude": 15.496484,
+            "latitude": 50.813672
+        },
+        "imageName": "Kamienczyk1"
+    },
 ]
