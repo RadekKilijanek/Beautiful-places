@@ -60,20 +60,20 @@
         "imageName": "Warszawa1"
     },
     {
-           "name": "Łęgi Rogalińskie",
-           "category": "Krajobraz",
-           "city": "Rogalin",
-           "state": "Wielkopolskie",
-           "id": 1005,
-           "isFeatured": false,
-           "isFavorite": false,
-           "park": "Wielkopolski Park Krajobrazowy",
-           "coordinates": {
-               "longitude": 16.905451,
-               "latitude": 52.394529
-           },
-           "imageName": "Rogalin2"
-       },
+        "name": "Łęgi Rogalińskie",
+        "category": "Krajobraz",
+        "city": "Rogalin",
+        "state": "Wielkopolskie",
+        "id": 1005,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Wielkopolski Park Krajobrazowy",
+        "coordinates": {
+            "longitude": 16.905451,
+            "latitude": 52.394529
+        },
+        "imageName": "Rogalin2"
+    },
     {
         "name": "Opuszczony Szpital dziecięcy",
         "category": "Opuszczone",
@@ -493,5 +493,20 @@
             "latitude": 52.702563
         },
         "imageName": "MostStobnica1"
+    },
+    {
+        "name": "Łysy Młyn",
+        "category": "Krajobraz",
+        "city": "Radojewo",
+        "state": "Wielkopolskie",
+        "id": 1035,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Łysy Młyn",
+        "coordinates": {
+            "longitude": 16.938882,
+            "latitude": 52.510076
+        },
+        "imageName": "LysyMlyn1"
     },
 ]
