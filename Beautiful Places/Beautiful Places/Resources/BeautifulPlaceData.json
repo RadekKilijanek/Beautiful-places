@@ -330,18 +330,48 @@
         "imageName": "Jelenia1"
     },
     {
-        "name": "Opuszczony hotel Sudety",
+        "name": "Opuszczony tunel kolejowy",
         "category": "Opuszczone",
-        "city": "Jelenia Góra",
+        "city": "Kowary",
         "state": "Dolnośląskie",
-        "id": 1022,
+        "id": 1023,
         "isFeatured": false,
         "isFavorite": false,
-        "park": "Jelenia Góra",
+        "park": "Kowary",
         "coordinates": {
-            "longitude": 15.761759,
-            "latitude": 50.900415
+            "longitude": 15.859503,
+            "latitude": 50.765138
         },
-        "imageName": "Jelenia1"
+        "imageName": "Tunel1"
+    },
+    {
+        "name": "Opuszczony Hotel w Karpaczu",
+        "category": "Opuszczone",
+        "city": "Kowary",
+        "state": "Dolnośląskie",
+        "id": 1024,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Kowary",
+        "coordinates": {
+            "longitude": 15.724194,
+            "latitude": 50.780235
+        },
+        "imageName": "HotelKarpacz1"
+    },
+    {
+        "name": "Opuszczony Hotel w Karpaczu",
+        "category": "Opuszczone",
+        "city": "Kowary",
+        "state": "Dolnośląskie",
+        "id": 1025,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Kowary",
+        "coordinates": {
+            "longitude": 15.724194,
+            "latitude": 50.780235
+        },
+        "imageName": "HotelKarpacz2"
     },
 ]
