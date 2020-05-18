@@ -14,6 +14,8 @@
 		0A06AD392472833900E221AB /* Willa1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A06AD382472833900E221AB /* Willa1.jpg */; };
 		0A06AD3B2472853100E221AB /* Kiekrz1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A06AD3A2472853100E221AB /* Kiekrz1.jpg */; };
 		0A06AD3D2472875800E221AB /* Rogalin3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A06AD3C2472875800E221AB /* Rogalin3.jpg */; };
+		0A06AD3F2472894200E221AB /* Konin1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A06AD3E2472894200E221AB /* Konin1.jpg */; };
+		0A06AD4124728B6000E221AB /* Rusalka1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A06AD4024728B6000E221AB /* Rusalka1.jpg */; };
 		0A0B4BD2246C77110037A714 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0B4BD1246C77110037A714 /* MapView.swift */; };
 		0A0B4BD5246C7B910037A714 /* BeautifulPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0B4BD4246C7B910037A714 /* BeautifulPlace.swift */; };
 		0A2AA134246D006000D8F181 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2AA133246D006000D8F181 /* Data.swift */; };
@@ -63,6 +65,8 @@
 		0A06AD382472833900E221AB /* Willa1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Willa1.jpg; sourceTree = "<group>"; };
 		0A06AD3A2472853100E221AB /* Kiekrz1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kiekrz1.jpg; sourceTree = "<group>"; };
 		0A06AD3C2472875800E221AB /* Rogalin3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rogalin3.jpg; sourceTree = "<group>"; };
+		0A06AD3E2472894200E221AB /* Konin1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Konin1.jpg; sourceTree = "<group>"; };
+		0A06AD4024728B6000E221AB /* Rusalka1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rusalka1.jpg; sourceTree = "<group>"; };
 		0A0B4BD1246C77110037A714 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		0A0B4BD4246C7B910037A714 /* BeautifulPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautifulPlace.swift; sourceTree = "<group>"; };
 		0A2AA133246D006000D8F181 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
@@ -146,8 +150,10 @@
 			children = (
 				0AEEEB2F246D130C00A01C01 /* Rogalin1.jpg */,
 				0A3D6180246D025000340B12 /* BeautifulPlaceData.json */,
+				0A06AD3E2472894200E221AB /* Konin1.jpg */,
 				0A3D6181246D025000340B12 /* Golina1.jpg */,
 				0A06AD382472833900E221AB /* Willa1.jpg */,
+				0A06AD4024728B6000E221AB /* Rusalka1.jpg */,
 				0A06AD3224727EFA00E221AB /* Szpital1.jpg */,
 				0A3D6183246D025000340B12 /* Warszawa1.jpg */,
 				0A06AD3A2472853100E221AB /* Kiekrz1.jpg */,
@@ -334,9 +340,11 @@
 				0A3D6189246D025000340B12 /* ZNTK1.jpg in Resources */,
 				0A06AD3324727EFA00E221AB /* Szpital1.jpg in Resources */,
 				0A06AD392472833900E221AB /* Willa1.jpg in Resources */,
+				0A06AD4124728B6000E221AB /* Rusalka1.jpg in Resources */,
 				0A06AD3124727CCE00E221AB /* Rogalin2.jpg in Resources */,
 				0A06AD37247280AF00E221AB /* Szpital3.jpg in Resources */,
 				0A3D6185246D025000340B12 /* BeautifulPlaceData.json in Resources */,
+				0A06AD3F2472894200E221AB /* Konin1.jpg in Resources */,
 				0AD31F1D242756AA00ECDCE1 /* Preview Assets.xcassets in Resources */,
 				0A06AD3B2472853100E221AB /* Kiekrz1.jpg in Resources */,
 				0A3D6188246D025000340B12 /* Warszawa1.jpg in Resources */,

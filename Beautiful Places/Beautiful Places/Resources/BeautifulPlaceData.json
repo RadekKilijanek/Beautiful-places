@@ -164,4 +164,34 @@
         },
         "imageName": "Rogalin3"
     },
+    {
+        "name": "Opuszczony dom",
+        "category": "Opuszczone",
+        "city": "Konin",
+        "state": "Wielkopolskie",
+        "id": 1012,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Konin",
+        "coordinates": {
+            "longitude": 18.082861,
+            "latitude": 52.190480
+        },
+        "imageName": "Konin1"
+    },
+    {
+        "name": "Jezioro Rusałka",
+        "category": "Krajobraz",
+        "city": "Poznań",
+        "state": "Wielkopolskie",
+        "id": 1013,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Konin",
+        "coordinates": {
+            "longitude": 16.883727,
+            "latitude": 52.426368
+        },
+        "imageName": "Rusalka1"
+    },
 ]
