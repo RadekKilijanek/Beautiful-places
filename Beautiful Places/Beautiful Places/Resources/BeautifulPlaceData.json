@@ -409,6 +409,21 @@
         "category": "Miasto",
         "city": "Świnoujście",
         "state": "Zachodniopomorskie",
+        "id": 1029,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Świnoujście",
+        "coordinates": {
+            "longitude": 14.274611,
+            "latitude": 53.922935
+        },
+        "imageName": "Swinoujscie1"
+    },
+    {
+        "name": "Świnoujście",
+        "category": "Miasto",
+        "city": "Świnoujście",
+        "state": "Zachodniopomorskie",
         "id": 1030,
         "isFeatured": false,
         "isFavorite": false,
