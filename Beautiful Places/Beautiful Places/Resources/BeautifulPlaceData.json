@@ -67,11 +67,26 @@
            "id": 1005,
            "isFeatured": false,
            "isFavorite": false,
-           "park": "Warszawa",
+           "park": "Wielkopolski Park Krajobrazowy",
            "coordinates": {
                "longitude": 16.905451,
                "latitude": 52.394529
            },
            "imageName": "Rogalin2"
        },
+    {
+        "name": "Opuszczony Szpital dziecięcy",
+        "category": "Opuszczone",
+        "city": "Miłowody",
+        "state": "Wielkopolskie",
+        "id": 1006,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Kowanówko",
+        "coordinates": {
+            "longitude": 16.846390,
+            "latitude": 52.670635
+        },
+        "imageName": "Szpital1"
+    },
 ]
