@@ -389,4 +389,19 @@
         },
         "imageName": "Mokrzeszow2"
     },
+    {
+        "name": "Poznań",
+        "category": "Miasto",
+        "city": "Poznań",
+        "state": "Wielkopolskie",
+        "id": 1028,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Poznań",
+        "coordinates": {
+            "longitude": 16.913519,
+            "latitude": 52.407983
+        },
+        "imageName": "Poznan1"
+    },
 ]

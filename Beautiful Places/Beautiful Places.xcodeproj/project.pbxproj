@@ -30,6 +30,7 @@
 		0A06AD592472F36600E221AB /* HotelKarpacz2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A06AD582472F36600E221AB /* HotelKarpacz2.jpg */; };
 		0A06AD5B2472F3CE00E221AB /* Mokrzeszow1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A06AD5A2472F3CE00E221AB /* Mokrzeszow1.jpg */; };
 		0A06AD5D2472F43100E221AB /* Mokrzeszow2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A06AD5C2472F43100E221AB /* Mokrzeszow2.jpg */; };
+		0A06AD5F2472F58200E221AB /* Poznan1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A06AD5E2472F58200E221AB /* Poznan1.jpg */; };
 		0A0B4BD2246C77110037A714 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0B4BD1246C77110037A714 /* MapView.swift */; };
 		0A0B4BD5246C7B910037A714 /* BeautifulPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0B4BD4246C7B910037A714 /* BeautifulPlace.swift */; };
 		0A2AA134246D006000D8F181 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2AA133246D006000D8F181 /* Data.swift */; };
@@ -95,6 +96,7 @@
 		0A06AD582472F36600E221AB /* HotelKarpacz2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HotelKarpacz2.jpg; sourceTree = "<group>"; };
 		0A06AD5A2472F3CE00E221AB /* Mokrzeszow1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mokrzeszow1.jpg; sourceTree = "<group>"; };
 		0A06AD5C2472F43100E221AB /* Mokrzeszow2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mokrzeszow2.jpg; sourceTree = "<group>"; };
+		0A06AD5E2472F58200E221AB /* Poznan1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Poznan1.jpg; sourceTree = "<group>"; };
 		0A0B4BD1246C77110037A714 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		0A0B4BD4246C7B910037A714 /* BeautifulPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautifulPlace.swift; sourceTree = "<group>"; };
 		0A2AA133246D006000D8F181 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
@@ -192,6 +194,7 @@
 				0A06AD582472F36600E221AB /* HotelKarpacz2.jpg */,
 				0A06AD5A2472F3CE00E221AB /* Mokrzeszow1.jpg */,
 				0A06AD542472F09000E221AB /* Tunel1.jpg */,
+				0A06AD5E2472F58200E221AB /* Poznan1.jpg */,
 				0A06AD4E2472A78600E221AB /* Dziki1.jpg */,
 				0A06AD46247295FD00E221AB /* Gory1.jpg */,
 				0A06AD4A24729E6F00E221AB /* KPN1.jpg */,
@@ -377,6 +380,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A06AD5B2472F3CE00E221AB /* Mokrzeszow1.jpg in Resources */,
+				0A06AD5F2472F58200E221AB /* Poznan1.jpg in Resources */,
 				0A06AD3D2472875800E221AB /* Rogalin3.jpg in Resources */,
 				0A06AD592472F36600E221AB /* HotelKarpacz2.jpg in Resources */,
 				0AEEEB30246D130D00A01C01 /* Rogalin1.jpg in Resources */,
