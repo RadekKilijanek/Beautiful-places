@@ -360,18 +360,33 @@
         "imageName": "HotelKarpacz1"
     },
     {
-        "name": "Opuszczony Hotel w Karpaczu",
+        "name": "Opuszczony szpital kawalerów Maltańskich",
         "category": "Opuszczone",
-        "city": "Kowary",
+        "city": "Mokrzeszów",
         "state": "Dolnośląskie",
-        "id": 1025,
+        "id": 1026,
         "isFeatured": false,
         "isFavorite": false,
-        "park": "Kowary",
+        "park": "Mokrzeszów",
         "coordinates": {
-            "longitude": 15.724194,
-            "latitude": 50.780235
+            "longitude": 16.369660,
+            "latitude": 50.851247
         },
-        "imageName": "HotelKarpacz2"
+        "imageName": "Mokrzeszow1"
+    },
+    {
+        "name": "Opuszczony szpital kawalerów Maltańskich",
+        "category": "Opuszczone",
+        "city": "Mokrzeszów",
+        "state": "Dolnośląskie",
+        "id": 1027,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Mokrzeszów",
+        "coordinates": {
+            "longitude": 16.369660,
+            "latitude": 50.851247
+        },
+        "imageName": "Mokrzeszow2"
     },
 ]
