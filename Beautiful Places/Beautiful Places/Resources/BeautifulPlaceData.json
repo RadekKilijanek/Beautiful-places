@@ -464,4 +464,19 @@
         },
         "imageName": "PuszczaPyzdrska1"
     },
+    {
+        "name": "Opuszczony dom w puszczy",
+        "category": "Opuszczone",
+        "city": "Piskory",
+        "state": "Wielkopolskie",
+        "id": 1033,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Puszcz Pyzdrska",
+        "coordinates": {
+            "longitude": 18.038247,
+            "latitude": 51.961708
+        },
+        "imageName": "PuszczaPyzdrska2"
+    },
 ]
