@@ -149,4 +149,19 @@
         },
         "imageName": "Kiekrz1"
     },
+    {
+        "name": "Łęgi Rogalińskie",
+        "category": "Krajobraz",
+        "city": "Rogalin",
+        "state": "Wielkopolskie",
+        "id": 1011,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Wielkopolski Park Krajobrazowy",
+        "coordinates": {
+            "longitude": 16.905451,
+            "latitude": 52.394529
+        },
+        "imageName": "Rogalin3"
+    },
 ]
