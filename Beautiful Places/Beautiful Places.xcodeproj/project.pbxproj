@@ -38,6 +38,7 @@
 		0A06AD692472FCCC00E221AB /* PuszczaPyzdrska2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A06AD682472FCCC00E221AB /* PuszczaPyzdrska2.jpg */; };
 		0A06AD6B2472FD4500E221AB /* MostStobnica1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A06AD6A2472FD4500E221AB /* MostStobnica1.jpg */; };
 		0A06AD6D2472FE1900E221AB /* LysyMlyn1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A06AD6C2472FE1900E221AB /* LysyMlyn1.jpg */; };
+		0A06AD6F2472FF0000E221AB /* Zielonka1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A06AD6E2472FF0000E221AB /* Zielonka1.jpg */; };
 		0A0B4BD2246C77110037A714 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0B4BD1246C77110037A714 /* MapView.swift */; };
 		0A0B4BD5246C7B910037A714 /* BeautifulPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0B4BD4246C7B910037A714 /* BeautifulPlace.swift */; };
 		0A2AA134246D006000D8F181 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2AA133246D006000D8F181 /* Data.swift */; };
@@ -111,6 +112,7 @@
 		0A06AD682472FCCC00E221AB /* PuszczaPyzdrska2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PuszczaPyzdrska2.jpg; sourceTree = "<group>"; };
 		0A06AD6A2472FD4500E221AB /* MostStobnica1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MostStobnica1.jpg; sourceTree = "<group>"; };
 		0A06AD6C2472FE1900E221AB /* LysyMlyn1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LysyMlyn1.jpg; sourceTree = "<group>"; };
+		0A06AD6E2472FF0000E221AB /* Zielonka1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zielonka1.jpg; sourceTree = "<group>"; };
 		0A0B4BD1246C77110037A714 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		0A0B4BD4246C7B910037A714 /* BeautifulPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautifulPlace.swift; sourceTree = "<group>"; };
 		0A2AA133246D006000D8F181 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
@@ -199,6 +201,7 @@
 				0A06AD382472833900E221AB /* Willa1.jpg */,
 				0A06AD4224728E3D00E221AB /* Belcz1.jpg */,
 				0A06AD4824729BC300E221AB /* Kamienczyk1.jpg */,
+				0A06AD6E2472FF0000E221AB /* Zielonka1.jpg */,
 				0A06AD562472F2DF00E221AB /* HotelKarpacz1.jpg */,
 				0A06AD4424728FA100E221AB /* Belcz2.jpg */,
 				0A06AD4C2472A0D200E221AB /* Samotnia1.jpg */,
@@ -434,6 +437,7 @@
 				0AD31F1A242756AA00ECDCE1 /* Assets.xcassets in Resources */,
 				0A3D6186246D025000340B12 /* Golina1.jpg in Resources */,
 				0A06AD4F2472A78600E221AB /* Dziki1.jpg in Resources */,
+				0A06AD6F2472FF0000E221AB /* Zielonka1.jpg in Resources */,
 				0A06AD512472EDDA00E221AB /* Szklarki1.jpg in Resources */,
 				0A06AD35247280A300E221AB /* Szpital2.jpg in Resources */,
 				0A06AD572472F2DF00E221AB /* HotelKarpacz1.jpg in Resources */,

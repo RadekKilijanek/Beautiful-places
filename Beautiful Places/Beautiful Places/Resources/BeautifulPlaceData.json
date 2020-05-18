@@ -509,4 +509,19 @@
         },
         "imageName": "LysyMlyn1"
     },
+    {
+        "name": "Opuszczony dom w puszczy",
+        "category": "Opuszczone",
+        "city": "",
+        "state": "Wielkopolskie",
+        "id": 1036,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Puszcza Zielonka",
+        "coordinates": {
+            "longitude": 17.083679,
+            "latitude": 52.523369
+        },
+        "imageName": "Zielonka1"
+    },
 ]
