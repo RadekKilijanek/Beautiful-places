@@ -284,4 +284,19 @@
         },
         "imageName": "Samotnia1"
     },
+    {
+        "name": "Dziki Wodospad",
+        "category": "Krajobraz",
+        "city": "Karpacz",
+        "state": "Dolnośląskie",
+        "id": 1020,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Karkonoski Park Narodowy",
+        "coordinates": {
+            "longitude": 15.727863,
+            "latitude": 50.768715
+        },
+        "imageName": "Dziki1"
+    },
 ]
