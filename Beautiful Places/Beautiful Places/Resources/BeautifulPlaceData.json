@@ -255,18 +255,33 @@
         "imageName": "Kamienczyk1"
     },
     {
-        "name": "Wodospad Kamieńczyk",
+        "name": "Karkonoski Park Narodowy",
         "category": "Krajobraz",
-        "city": "Szklarska Poręba",
+        "city": "Karpacz",
         "state": "Dolnośląskie",
-        "id": 1017,
+        "id": 1018,
         "isFeatured": false,
         "isFavorite": false,
         "park": "Karkonoski Park Narodowy",
         "coordinates": {
-            "longitude": 15.496484,
-            "latitude": 50.813672
+            "longitude": 15.724128,
+            "latitude": 50.763826
         },
-        "imageName": "Kamienczyk1"
+        "imageName": "KPN1"
+    },
+    {
+        "name": "Schronisko Samotnia",
+        "category": "Krajobraz",
+        "city": "Karpacz",
+        "state": "Dolnośląskie",
+        "id": 1019,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Karkonoski Park Narodowy",
+        "coordinates": {
+            "longitude": 15.702556,
+            "latitude": 50.748953
+        },
+        "imageName": "Samotnia1"
     },
 ]
