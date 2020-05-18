@@ -224,4 +224,19 @@
         },
         "imageName": "Belcz2"
     },
+    {
+        "name": "Krajobraz górski",
+        "category": "Krajobraz",
+        "city": "-",
+        "state": "Dolnośląskie",
+        "id": 1016,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "-",
+        "coordinates": {
+            "longitude": 15.816423,
+            "latitude": 50.951381
+        },
+        "imageName": "Gory1"
+    },
 ]

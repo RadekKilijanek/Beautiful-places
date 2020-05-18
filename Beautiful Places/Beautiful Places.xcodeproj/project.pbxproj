@@ -18,6 +18,7 @@
 		0A06AD4124728B6000E221AB /* Rusalka1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A06AD4024728B6000E221AB /* Rusalka1.jpg */; };
 		0A06AD4324728E3D00E221AB /* Belcz1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A06AD4224728E3D00E221AB /* Belcz1.jpg */; };
 		0A06AD4524728FA100E221AB /* Belcz2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A06AD4424728FA100E221AB /* Belcz2.jpg */; };
+		0A06AD47247295FD00E221AB /* Gory1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A06AD46247295FD00E221AB /* Gory1.jpg */; };
 		0A0B4BD2246C77110037A714 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0B4BD1246C77110037A714 /* MapView.swift */; };
 		0A0B4BD5246C7B910037A714 /* BeautifulPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0B4BD4246C7B910037A714 /* BeautifulPlace.swift */; };
 		0A2AA134246D006000D8F181 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2AA133246D006000D8F181 /* Data.swift */; };
@@ -71,6 +72,7 @@
 		0A06AD4024728B6000E221AB /* Rusalka1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rusalka1.jpg; sourceTree = "<group>"; };
 		0A06AD4224728E3D00E221AB /* Belcz1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Belcz1.jpg; sourceTree = "<group>"; };
 		0A06AD4424728FA100E221AB /* Belcz2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Belcz2.jpg; sourceTree = "<group>"; };
+		0A06AD46247295FD00E221AB /* Gory1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gory1.jpg; sourceTree = "<group>"; };
 		0A0B4BD1246C77110037A714 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		0A0B4BD4246C7B910037A714 /* BeautifulPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautifulPlace.swift; sourceTree = "<group>"; };
 		0A2AA133246D006000D8F181 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 				0A06AD382472833900E221AB /* Willa1.jpg */,
 				0A06AD4224728E3D00E221AB /* Belcz1.jpg */,
 				0A06AD4424728FA100E221AB /* Belcz2.jpg */,
+				0A06AD46247295FD00E221AB /* Gory1.jpg */,
 				0A06AD4024728B6000E221AB /* Rusalka1.jpg */,
 				0A06AD3224727EFA00E221AB /* Szpital1.jpg */,
 				0A3D6183246D025000340B12 /* Warszawa1.jpg */,
@@ -346,6 +349,7 @@
 				0AD31F20242756AA00ECDCE1 /* LaunchScreen.storyboard in Resources */,
 				0A3D6189246D025000340B12 /* ZNTK1.jpg in Resources */,
 				0A06AD3324727EFA00E221AB /* Szpital1.jpg in Resources */,
+				0A06AD47247295FD00E221AB /* Gory1.jpg in Resources */,
 				0A06AD392472833900E221AB /* Willa1.jpg in Resources */,
 				0A06AD4124728B6000E221AB /* Rusalka1.jpg in Resources */,
 				0A06AD3124727CCE00E221AB /* Rogalin2.jpg in Resources */,
