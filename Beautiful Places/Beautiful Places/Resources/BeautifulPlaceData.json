@@ -89,4 +89,64 @@
         },
         "imageName": "Szpital1"
     },
+    {
+        "name": "Opuszczony Szpital dziecięcy",
+        "category": "Opuszczone",
+        "city": "Miłowody",
+        "state": "Wielkopolskie",
+        "id": 1007,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Kowanówko",
+        "coordinates": {
+            "longitude": 16.846390,
+            "latitude": 52.670635
+        },
+        "imageName": "Szpital2"
+    },
+    {
+        "name": "Opuszczony Szpital dziecięcy",
+        "category": "Opuszczone",
+        "city": "Miłowody",
+        "state": "Wielkopolskie",
+        "id": 1008,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Kowanówko",
+        "coordinates": {
+            "longitude": 16.846390,
+            "latitude": 52.670635
+        },
+        "imageName": "Szpital3"
+    },
+    {
+        "name": "Willa",
+        "category": "Opuszczone",
+        "city": "Baranowo",
+        "state": "Wielkopolskie",
+        "id": 1009,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Baranowo",
+        "coordinates": {
+            "longitude": 16.775828,
+            "latitude": 52.446882
+        },
+        "imageName": "Willa1"
+    },
+    {
+        "name": "Jezioro Kierskie",
+        "category": "Krajobraz",
+        "city": "Kiekrz",
+        "state": "Wielkopolskie",
+        "id": 1010,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Kiekrz",
+        "coordinates": {
+            "longitude": 16.802651,
+            "latitude": 52.444651
+        },
+        "imageName": "Kiekrz1"
+    },
 ]
