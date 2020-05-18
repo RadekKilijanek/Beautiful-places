@@ -315,18 +315,33 @@
         "imageName": "Szklarki1"
     },
     {
-        "name": "Wodospad Szklarki",
-        "category": "Krajobraz",
-        "city": "Piechowice",
+        "name": "Opuszczony hotel Sudety",
+        "category": "Opuszczone",
+        "city": "Jelenia Góra",
         "state": "Dolnośląskie",
-        "id": 1021,
+        "id": 1022,
         "isFeatured": false,
         "isFavorite": false,
-        "park": "Karkonoski Park Narodowy",
+        "park": "Jelenia Góra",
         "coordinates": {
-            "longitude": 15.555757,
-            "latitude": 50.829937
+            "longitude": 15.761759,
+            "latitude": 50.900415
         },
-        "imageName": "Szklarki1"
+        "imageName": "Jelenia1"
+    },
+    {
+        "name": "Opuszczony hotel Sudety",
+        "category": "Opuszczone",
+        "city": "Jelenia Góra",
+        "state": "Dolnośląskie",
+        "id": 1022,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Jelenia Góra",
+        "coordinates": {
+            "longitude": 15.761759,
+            "latitude": 50.900415
+        },
+        "imageName": "Jelenia1"
     },
 ]
