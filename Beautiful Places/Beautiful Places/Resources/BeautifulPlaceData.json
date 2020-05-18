@@ -479,4 +479,19 @@
         },
         "imageName": "PuszczaPyzdrska2"
     },
+    {
+        "name": "Opuszczony most kolejowy",
+        "category": "Opuszczone",
+        "city": "Stobnica",
+        "state": "Wielkopolskie",
+        "id": 1034,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Puszcz Pyzdrska",
+        "coordinates": {
+            "longitude": 16.606022,
+            "latitude": 52.702563
+        },
+        "imageName": "MostStobnica1"
+    },
 ]
