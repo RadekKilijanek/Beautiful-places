@@ -434,4 +434,34 @@
         },
         "imageName": "Swinoujscie2"
     },
+    {
+        "name": "Szachty",
+        "category": "Krajobraz",
+        "city": "Poznań",
+        "state": "Wielkopolskie",
+        "id": 1031,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Świnoujście",
+        "coordinates": {
+            "longitude": 16.866286,
+            "latitude": 52.361294
+        },
+        "imageName": "Szachty1"
+    },
+    {
+        "name": "Opuszczony dom w puszczy",
+        "category": "Opuszczone",
+        "city": "Piskory",
+        "state": "Wielkopolskie",
+        "id": 1032,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Puszcz Pyzdrska",
+        "coordinates": {
+            "longitude": 18.038247,
+            "latitude": 51.961708
+        },
+        "imageName": "PuszczaPyzdrska1"
+    },
 ]

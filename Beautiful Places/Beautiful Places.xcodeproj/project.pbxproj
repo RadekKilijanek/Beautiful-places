@@ -33,6 +33,8 @@
 		0A06AD5F2472F58200E221AB /* Poznan1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A06AD5E2472F58200E221AB /* Poznan1.jpg */; };
 		0A06AD612472F65A00E221AB /* Swinoujscie1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A06AD602472F65A00E221AB /* Swinoujscie1.jpg */; };
 		0A06AD632472F75600E221AB /* Swinoujscie2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A06AD622472F75600E221AB /* Swinoujscie2.jpg */; };
+		0A06AD652472F8AC00E221AB /* Szachty1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A06AD642472F8AC00E221AB /* Szachty1.jpg */; };
+		0A06AD672472F94200E221AB /* PuszczaPyzdrska1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A06AD662472F94200E221AB /* PuszczaPyzdrska1.jpg */; };
 		0A0B4BD2246C77110037A714 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0B4BD1246C77110037A714 /* MapView.swift */; };
 		0A0B4BD5246C7B910037A714 /* BeautifulPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0B4BD4246C7B910037A714 /* BeautifulPlace.swift */; };
 		0A2AA134246D006000D8F181 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2AA133246D006000D8F181 /* Data.swift */; };
@@ -101,6 +103,8 @@
 		0A06AD5E2472F58200E221AB /* Poznan1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Poznan1.jpg; sourceTree = "<group>"; };
 		0A06AD602472F65A00E221AB /* Swinoujscie1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Swinoujscie1.jpg; sourceTree = "<group>"; };
 		0A06AD622472F75600E221AB /* Swinoujscie2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Swinoujscie2.jpg; sourceTree = "<group>"; };
+		0A06AD642472F8AC00E221AB /* Szachty1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Szachty1.jpg; sourceTree = "<group>"; };
+		0A06AD662472F94200E221AB /* PuszczaPyzdrska1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PuszczaPyzdrska1.jpg; sourceTree = "<group>"; };
 		0A0B4BD1246C77110037A714 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		0A0B4BD4246C7B910037A714 /* BeautifulPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautifulPlace.swift; sourceTree = "<group>"; };
 		0A2AA133246D006000D8F181 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
@@ -194,8 +198,10 @@
 				0A06AD4C2472A0D200E221AB /* Samotnia1.jpg */,
 				0A06AD522472EE6400E221AB /* Jelenia1.jpg */,
 				0A06AD602472F65A00E221AB /* Swinoujscie1.jpg */,
+				0A06AD662472F94200E221AB /* PuszczaPyzdrska1.jpg */,
 				0A06AD5C2472F43100E221AB /* Mokrzeszow2.jpg */,
 				0A06AD622472F75600E221AB /* Swinoujscie2.jpg */,
+				0A06AD642472F8AC00E221AB /* Szachty1.jpg */,
 				0A06AD502472EDDA00E221AB /* Szklarki1.jpg */,
 				0A06AD582472F36600E221AB /* HotelKarpacz2.jpg */,
 				0A06AD5A2472F3CE00E221AB /* Mokrzeszow1.jpg */,
@@ -393,6 +399,7 @@
 				0AEEEB30246D130D00A01C01 /* Rogalin1.jpg in Resources */,
 				0A06AD4524728FA100E221AB /* Belcz2.jpg in Resources */,
 				0AD31F20242756AA00ECDCE1 /* LaunchScreen.storyboard in Resources */,
+				0A06AD652472F8AC00E221AB /* Szachty1.jpg in Resources */,
 				0A3D6189246D025000340B12 /* ZNTK1.jpg in Resources */,
 				0A06AD5D2472F43100E221AB /* Mokrzeszow2.jpg in Resources */,
 				0A06AD3324727EFA00E221AB /* Szpital1.jpg in Resources */,
@@ -400,6 +407,7 @@
 				0A06AD4D2472A0D200E221AB /* Samotnia1.jpg in Resources */,
 				0A06AD392472833900E221AB /* Willa1.jpg in Resources */,
 				0A06AD4124728B6000E221AB /* Rusalka1.jpg in Resources */,
+				0A06AD672472F94200E221AB /* PuszczaPyzdrska1.jpg in Resources */,
 				0A06AD3124727CCE00E221AB /* Rogalin2.jpg in Resources */,
 				0A06AD37247280AF00E221AB /* Szpital3.jpg in Resources */,
 				0A3D6185246D025000340B12 /* BeautifulPlaceData.json in Resources */,
