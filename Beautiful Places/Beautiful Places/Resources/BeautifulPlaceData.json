@@ -299,4 +299,34 @@
         },
         "imageName": "Dziki1"
     },
+    {
+        "name": "Wodospad Szklarki",
+        "category": "Krajobraz",
+        "city": "Piechowice",
+        "state": "Dolnośląskie",
+        "id": 1021,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Karkonoski Park Narodowy",
+        "coordinates": {
+            "longitude": 15.555757,
+            "latitude": 50.829937
+        },
+        "imageName": "Szklarki1"
+    },
+    {
+        "name": "Wodospad Szklarki",
+        "category": "Krajobraz",
+        "city": "Piechowice",
+        "state": "Dolnośląskie",
+        "id": 1021,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Karkonoski Park Narodowy",
+        "coordinates": {
+            "longitude": 15.555757,
+            "latitude": 50.829937
+        },
+        "imageName": "Szklarki1"
+    },
 ]
