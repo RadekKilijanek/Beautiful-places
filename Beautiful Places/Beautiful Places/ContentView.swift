@@ -10,6 +10,7 @@ import SwiftUI
 
 struct ContentView: View {
     @EnvironmentObject var userData: UserData
+    //@State private var coordinates = CLLocationCoordinate2D()
     var beatifulPlace: BeautifulPlace
     
     var beautifulPlaceIndex: Int {
@@ -18,7 +19,7 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            MapView(coordinate: beatifulPlace.locationCoordinate)
+            MapView(coordinates: beatifulPlace.locationCoordinate)
                 .edgesIgnoringSafeArea(.top)
                 .frame(height: 300)
             
@@ -50,6 +51,10 @@ struct ContentView: View {
                     Spacer()
                     Text(beatifulPlace.name)
                         .font(.subheadline)
+                    Spacer()
+                    Text(beatifulPlace.city)
+                        .font(.subheadline)
+                    Spacer()
                 }
             }
             .padding()

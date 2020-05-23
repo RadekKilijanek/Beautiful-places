@@ -16,6 +16,7 @@ struct BeautifulPlace: Hashable, Codable, Identifiable {
     fileprivate var coordinates: Coordinates
     var state: String
     var park: String
+    var city: String
     var category: Category
     var isFeatured: Bool
     var isFavorite: Bool 
