@@ -11,10 +11,20 @@ import UIKit
 
 struct PageViewController: UIViewControllerRepresentable {
     var controllers: [UIViewController]
-}
-
-struct PageViewController_Previews: PreviewProvider {
-    static var previews: some View {
-        PageViewController()
+    
+    func makeUIViewController(context: Context) -> UIPageViewController {
+        let pageViewController = UIPageViewController (
+            transitionStyle: .scroll,
+            navigationOrientation: .horizontal
+        )
+        return pageViewController
+    }
+    
+    
+    
+    func updateUIViewController(_pageViewController: UIPageViewController, context: Context) {
+        PageViewController.setViewControllers(
+            [controllers[0]], direction: .forward, animated: true
+        )
     }
 }
