@@ -63,6 +63,7 @@
 		0AD31F36242756AA00ECDCE1 /* Beautiful_PlacesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD31F35242756AA00ECDCE1 /* Beautiful_PlacesUITests.swift */; };
 		0ADFDF2E24791076003B5BE5 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADFDF2D24791076003B5BE5 /* PageView.swift */; };
 		0ADFDF3024791371003B5BE5 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADFDF2F24791371003B5BE5 /* FeatureCard.swift */; };
+		0ADFDF32247917C2003B5BE5 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADFDF31247917C2003B5BE5 /* PageControl.swift */; };
 		0AEEEB30246D130D00A01C01 /* Rogalin1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AEEEB2F246D130C00A01C01 /* Rogalin1.jpg */; };
 /* End PBXBuildFile section */
 
@@ -146,6 +147,7 @@
 		0AD31F37242756AA00ECDCE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0ADFDF2D24791076003B5BE5 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		0ADFDF2F24791371003B5BE5 /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
+		0ADFDF31247917C2003B5BE5 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		0AEEEB2F246D130C00A01C01 /* Rogalin1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rogalin1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -180,6 +182,7 @@
 				0A3D618C246D079700340B12 /* BeautifulPlaceList.swift */,
 				0ADFDF2D24791076003B5BE5 /* PageView.swift */,
 				0A29A12C247853A900ACF996 /* PageViewController.swift */,
+				0ADFDF31247917C2003B5BE5 /* PageControl.swift */,
 				0ADFDF2F24791371003B5BE5 /* FeatureCard.swift */,
 				0A56B9CB246D49EB0053DDF1 /* CategoryRow.swift */,
 				0A56B9C9246D45820053DDF1 /* Home.swift */,
@@ -486,6 +489,7 @@
 				0A6C08F7246D5E9F0021E140 /* UserData.swift in Sources */,
 				0A83AF1A246C1402003E71B4 /* CircleImage.swift in Sources */,
 				0A0B4BD2246C77110037A714 /* MapView.swift in Sources */,
+				0ADFDF32247917C2003B5BE5 /* PageControl.swift in Sources */,
 				0AD31F16242756A900ECDCE1 /* SceneDelegate.swift in Sources */,
 				0A29A12D247853A900ACF996 /* PageViewController.swift in Sources */,
 				0AD31F18242756A900ECDCE1 /* ContentView.swift in Sources */,

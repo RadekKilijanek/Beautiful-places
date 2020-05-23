@@ -10,6 +10,7 @@ import SwiftUI
 import CoreLocation
 
 let beautifulPlaceData: [BeautifulPlace] = load("BeautifulPlaceData.json")
+let features = beautifulPlaceData.filter { $0.isFeatured }
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
