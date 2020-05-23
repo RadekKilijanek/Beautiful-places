@@ -47,7 +47,7 @@ struct CategoryItem: View {
                 .frame(width: 155, height: 155)
                 .cornerRadius(5)
             Text(beautifulPlace.name)
-                .lineLimit(1)
+                .lineLimit(nil)
                 .foregroundColor(.primary)
                 .font(.caption)
         }
