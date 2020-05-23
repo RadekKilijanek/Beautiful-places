@@ -179,16 +179,16 @@
 		0A0B4BD0246C76DE0037A714 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				0A3D618C246D079700340B12 /* BeautifulPlaceList.swift */,
 				0ADFDF2D24791076003B5BE5 /* PageView.swift */,
 				0A29A12C247853A900ACF996 /* PageViewController.swift */,
 				0ADFDF31247917C2003B5BE5 /* PageControl.swift */,
 				0ADFDF2F24791371003B5BE5 /* FeatureCard.swift */,
+				0A83AF19246C1402003E71B4 /* CircleImage.swift */,
+				0A0B4BD1246C77110037A714 /* MapView.swift */,
+				0A3D618C246D079700340B12 /* BeautifulPlaceList.swift */,
 				0A56B9CB246D49EB0053DDF1 /* CategoryRow.swift */,
 				0A56B9C9246D45820053DDF1 /* Home.swift */,
 				0A3D618A246D04E800340B12 /* BeautifulPlaceRow.swift */,
-				0A83AF19246C1402003E71B4 /* CircleImage.swift */,
-				0A0B4BD1246C77110037A714 /* MapView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
