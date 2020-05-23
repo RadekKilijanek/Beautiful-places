@@ -11,15 +11,23 @@ import MapKit
 
 struct MapView: UIViewRepresentable {
     var coordinate: CLLocationCoordinate2D
+   // var beatifulPlace: BeautifulPlace
     
     func makeUIView(context: Context) -> MKMapView {
         MKMapView(frame: .zero)
     }
     
     func updateUIView(_ uiView: MKMapView, context: Context) {
+        let mylocation = CLLocationCoordinate2D(latitude: 16.606022, longitude: 52.702563)
         let span = MKCoordinateSpan(latitudeDelta: 0.02, longitudeDelta: 0.02)
         let region = MKCoordinateRegion(center: coordinate, span: span)
         uiView.setRegion(region, animated: true)
+        
+        let annotation = MKPointAnnotation()
+        annotation.coordinate = mylocation
+        
+        annotation.title = "Punkt"
+       // View.addAnnotation(annotation)
     }
 }
 
