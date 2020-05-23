@@ -35,6 +35,7 @@ struct CategoryHome: View {
         NavigationView {
             List {
                 FeaturedBeautifulPlace(beautifulPlace: featured)
+                    .lineLimit(1)
                     .scaledToFill()
                     .frame(height: 200)
                     .clipped()

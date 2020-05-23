@@ -26,7 +26,7 @@ struct CategoryRow: View {
                             destination: ContentView(
                                 beatifulPlace: BeautifulPlace
                             )
-                            ) {
+                        ) {
                             CategoryItem(beautifulPlace: BeautifulPlace)
                         }
                     }
@@ -47,6 +47,7 @@ struct CategoryItem: View {
                 .frame(width: 155, height: 155)
                 .cornerRadius(5)
             Text(beautifulPlace.name)
+                .lineLimit(1)
                 .foregroundColor(.primary)
                 .font(.caption)
         }
